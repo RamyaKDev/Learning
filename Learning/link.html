@@ -6,12 +6,75 @@
     <title>Link</title>
 </head>
 <body>
+    <h3>Anchor link and image link tags</h3>
+    <table>
+        <tr><td> Anchor link with <mark>blank</mark>  value in target attribute
+            <td>
     <a href="https://www.google.com" target="_blank">Click</a>
-    <a href="https://www.google.com" target="_self">
-        <img src="/image/click.png" alt="click image">
-    </a>
-    <hr>
-    <a href="mailto:someone@example.com"> Send mail</a>
-    <a href="#list.html.definition">Definition_list</a>
+    </td>
+    </tr>
+    <tr><td> Anchor link with <mark>self</mark> value in target attribute
+        <td>
+            <a href="https://www.google.com" target="_self">
+               Click here
+            </a>
+</td>
+</tr>
+<tr><td> Anchor link with <mark>parent</mark> value in target attribute
+    <td>
+        <a href="https://www.google.com" target="_parent">
+            Click here
+         </a>
+        
+</td>
+</tr>
+<tr><td> Anchor link with <mark>top</mark> value in target attribute
+    <td>
+        <a href="https://www.google.com" target="_top">
+            Click here
+         </a>
+        
+</td>
+</tr>
+<tr><td><b> Image as a link</b>
+    <td>
+        <a href="https://www.google.com" target="_self">
+            <img src="/image/click.png" alt="click image" width="100px">
+        </a>
+</td>
+</tr>
+<tr><td><b> Iframe target link</b>
+    <td>
+        <iframe src="/frame1.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+        <p><a href="https://www.google.com/" target="iframe_a">Google.com</a></p>
+            
+</td>
+</tr>
+<tr><td><b> Iframe target link</b>
+    <td>
+        <iframe width="300", height="100" 
+style="border:3px dashed "
+srcdoc="<a target='_parent' href='https://google.com'>Google_parent</a>"
+</iframe>
+            
+</td>
+</tr>
+
+
+
+
+    <tr><td> <strong>Sending mail</strong>
+        <td>
+            <a href="mailto:someone@example.com"> Send mail</a>
+    </td>
+    </tr>
+    <tr><td> <i>Relative url= Navigating within project </i>
+        <td>
+            <a href="#list.html.definition">Definition_list</a>
+    </td>
+    </tr>
+    
+    </table>
 </body>
 </html>
