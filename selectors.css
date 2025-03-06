@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(209, 174, 241);
+}
+body{
+    color:brown;
+}
+#h1id{
+    color:chartreuse;
+    font-size: 40px;
+}
+.class1{
+    color:darkgreen
+}
+.class1,p{
+    font-family: 'Courier New', Courier, monospace;
+}
+body>h1{
+    font-variant: small-caps;
+    color:aqua; important
+}
+body a{
+font-size:30px;
+}
+h1 + h2 {
+    color:darkorange;
+}
+p~ul{
+    color:azure
+}
