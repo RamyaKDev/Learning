@@ -27,3 +27,11 @@ text-shadow:-10px -25px 2px rgb(4, 94, 56);
   font-weight: 400;
   font-style: normal;
 }
+.para2{
+    background-color: brown;
+    /* color: rgb(4, 94, 56); */
+    /* color: #ff367f; */
+    /* color:hsl(258, 47%, 20%); */
+    /* color:rgba(157, 197, 168, 0.5); */
+    color:hsla(258, 47%, 20%, 0.4);
+}
