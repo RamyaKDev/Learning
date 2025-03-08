@@ -1,0 +1,15 @@
+a:link{
+color:aqua;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:pink;
+}
+a:focus{
+    color:green;
+}
+a:active{
+    color:brown;
+}
