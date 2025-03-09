@@ -13,3 +13,6 @@ a:focus{
 a:active{
     color:brown;
 }
+.div1{
+    display: inline-block;
+}
