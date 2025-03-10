@@ -1,0 +1,18 @@
+ ul li{
+    list-style: none;
+} 
+
+
+li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+
+    /* Height of the list image*/
+    height: 10px;
+
+    /* Width of the list image*/
+    width: 10px;
+    background-image: url("/image/star1.jpg");
+    background-size: contain; 
+}
