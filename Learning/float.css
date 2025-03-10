@@ -1,0 +1,14 @@
+div{
+    background-color: rgb(240, 176, 133);
+    width:400px;
+    height:400px;
+    border:black 2px solid;
+    text-align: center;
+    margin:50px auto;
+}
+img{
+    /* float:left; */
+    float:right;
+    width:200px;
+    height:200px;
+}
