@@ -1,0 +1,18 @@
+.box{
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    background-color: brown;
+    transition-duration: 5s;
+    /*transition-delay: 2s; */
+    /* transition-property: background-color; */
+    transition-timing-function: ease-in-out;
+
+}
+.box:hover{
+ width: 400px;
+ height:400px;
+ background-color:aqua;
+  transform: rotateY(45deg); 
+ 
+}
