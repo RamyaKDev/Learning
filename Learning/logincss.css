@@ -1,0 +1,33 @@
+.formdiv{
+    width:600px;
+    height:500px;
+    text-align: center;
+    margin: 10%;
+    margin-left: 600px;
+    background-color: aliceblue;
+    font-size: 30px;
+     border-radius: 5px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(104, 104, 218),rgb(241, 77, 241));
+}
+#username{
+    width:400px;
+    height: 60px;
+    border-radius: 5px;
+    margin:10px;
+}
+#Password{
+    width:400px;
+    height: 60px;
+    border-radius: 5px;
+    margin:10px;
+}
+button{
+    margin:10px;
+    width:300px;
+    height: 50px;
+    border-radius: 5px;
+     font-size: 30px;
+     color:brown;
+}
